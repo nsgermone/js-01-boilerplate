@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Docker
+docker-compose.yml
+db_data/
+
+# Testing
+coverage/
+jest-html-reporters/
+test-output/
+
+# IDEs and Editors
+.vscode/
+.idea/
+.DS_Store
+
+# OS generated files
+Thumbs.db
