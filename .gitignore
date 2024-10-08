@@ -23,3 +23,5 @@ test-output/
 
 # OS generated files
 Thumbs.db
+
+package-lock.json

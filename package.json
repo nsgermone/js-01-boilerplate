@@ -1,0 +1,29 @@
+{
+  "name": "JS - Day 1",
+  "version": "1.0.0",
+  "scripts": {
+  "lint": "eslint src/**/*.js",
+  "lint:fix": "eslint src/**/*.js --fix",
+  "format": "prettier --write src/**/*.js",
+  "start": "node src/index.js"
+  },
+  "lint-staged": {
+      "src/**/*.js": [
+        "eslint --fix",
+        "prettier --write"
+      ]
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "globals": "^15.10.0",
+    "prettier": "^3.3.3"
+  }
+}
